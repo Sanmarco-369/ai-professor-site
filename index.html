@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Марк Рассказов</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto :wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="hero">
+    <div class="container">
+      <h1>AI Профессор Марк Рассказов</h1>
+      <p>AI креатор и ментор • Генеративный контент • Искусственный интеллект</p>
+      <a href="#contact" class="btn">Связаться</a>
+    </div>
+  </header>
+
+  <!-- Обо мне -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Факты об авторе</h2>
+      <p>Я создаю уникальный контент с помощью искусственного интеллекта: тексты, изображения и видео, а также обучаю полноценной работе в нейросетях. Моя задача — помочь бизнесу и творческим людям выйти на новый уровень с помощью AI.</p>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section id="services" class="section light-bg">
+    <div class="container">
+      <h2>Мои услуги</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Генерация текста</h3>
+          <p>SEO-оптимизированные статьи, рекламные тексты, сценарии и другое.</p>
+        </div>
+        <div class="service-card">
+          <h3>Создание изображений</h3>
+          <p>Дизайн логотипов, баннеров, обложек и концептов с помощью нейросетей.</p>
+        </div>
+        <div class="service-card">
+          <h3>Видео и анимация</h3>
+          <p>AI-анимация, генерация видео, голосовые дубляжи, озвучание, монтаж.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Портфолио</h2>
+      <div class="portfolio-grid">
+        <img src="images/project1.jpg" alt="Проект 1">
+        <img src="images/project2.jpg" alt="Проект 2">
+        <img src="images/project3.jpg" alt="Проект 3">
+        <img src="images/project4.jpg" alt="Проект 4">
+        <img src="images/project5.jpg" alt="Проект 5">
+        <img src="images/project6.jpg" alt="Проект 6">
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="section light-bg">
+    <div class="container">
+      <h2>Связаться с автором</h2>
+      <p>Если у вас есть проект или идея, которую можно реализовать с помощью AI — напишите!</p>
+      <p>Используйте форму ниже, чтобы оставить сообщение:</p>
+
+      <form action="https://formspree.io/f/YOUR_FORM_ID_HERE " method="POST">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" name="name" placeholder="Анна Иванова" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="anna@example.com" required />
+
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" rows="5" placeholder="Введите текст..." required></textarea>
+
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Иван Петров — AI Креатор</p>
+    </div>
+  </footer>
+
+</body>
+</html>
